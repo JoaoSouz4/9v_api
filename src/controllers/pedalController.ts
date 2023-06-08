@@ -6,9 +6,17 @@ class PedalController {
     
         const {name,brand, description, specifications, price, amount, category} = req.body;
         const isAvailable = (amount > 0) ? true : false;
-
+        const createdAt = new Date;
         const pedal = new Pedal({
-            name, description, brand, price, specifications, amount, category, isAvailable
+            name, 
+            description, 
+            brand, 
+            price, 
+            specifications, 
+            amount, 
+            category, 
+            isAvailable,
+            createdAt
         });
 
         try{
