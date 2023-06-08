@@ -3,8 +3,6 @@ import _default from './default';
 //mongodb+srv://<username>:<password>@9voltz.xsksiqp.mongodb.net/?retryWrites=true&w=majority
 
 async function startDB(){
-    console.log(_default.dbUser);
-    console.log(_default.dbPass);
     const url = `mongodb+srv://${_default.dbUser}:${_default.dbPass}@9voltz.xsksiqp.mongodb.net/pedals?retryWrites=true&w=majority`
 
     try {
