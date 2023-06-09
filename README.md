@@ -29,9 +29,9 @@ para o negócio.
     
     https://ninevoltz.onrender.com/getallpedals
   </li>
-  <li>[ ] Retornar uma pedal específico pelo nome;</li>
-  <li>[ ] Retornar uma pedal um determinado pedal por marca;</li>
-  <li>[ ] Retornar uma pedal em uma determinada faixa de preço;</li>
+  <li>[ ] Retornar um pedal específico pelo nome;</li>
+  <li>[ ] Retornar um pedal um determinado pedal por marca;</li>
+  <li>[ ] Retornar um pedal em uma determinada faixa de preço;</li>
   <li>[ ] Retornar uma lista de pedais de um determinado efeito(delay, distroção, chorus, etc;)</li>
   <li>[ ] Retornar uma lista de pedais que estão em falta no estoque;</li>
 </ul>
